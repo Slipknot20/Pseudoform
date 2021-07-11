@@ -518,4 +518,9 @@ input:focus{
     label:not(.or){
         left: 0px;
     }
+    #mas{
+        position: relative;
+        right: 20px;
+        top: 580px;
+    }
 }
