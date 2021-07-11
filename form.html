@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="principal">
+            <div class="titu">20% de descuento en todos los productos!</div>
+            <div class="conte">
+                <img src="img/Group.png">
+                <span>Tienda de héroes</span>
+            </div>
+            <div class="menu3">
+                <ul><a class="link" href="#">Contacto</a></ul>
+                <ul><a class="link" href="registro.html">Registrame</a></ul>
+                <ul><a class="link" href="ingresar.html">Ingresar</a></ul>
+            </div>
+        </header>
+        <main class="flex">
+            <div class="conteim">
+            <div><h3 class="cen">Añadir tu super!</h3></div>
+            <div><p id="cen">Agrega tu personaje favorito completando las opciones</p></div>
+            <section class="conte2">
+                <form action="#" method="GET">
+                    <div class="wrap">
+                        <div class="ver">
+                            <label for="nombre">*Nombre</label>
+                            <input type="text" name="nombre" id="nombre">
+                        </div>
+                        <div class="ver">
+                            <label for="especie">*Especie</label>
+                            <select name="especie" id="especie">
+                                <option value="AM" selected>Amazona</option>
+                                <option value="AT">Atlante</option>
+                                <option value="HU">Humanos</option>
+                                <option value="KR">Kryptonianos</option>
+                                <option value="MH">Metahumano</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="wrap">
+                        <div class="ver">
+                            <label for="fecha">Fecha</label>
+                            <input type="date" name="fecha" id="fecha">
+                        </div>
+                        <div class="ver">
+                            <label for="archivo">Agregar Foto</label>
+                            <input type="file" name="archivo" id="archivo" class="inputfile">
+                        </div>
+                    </div>    
+                    <span><a id="mas1" href="index.html">-</a></span>
+                    <div class="wrap">
+                        <div class="ver">
+                            <textarea name="comentarios" rows="13" cols="1" id="textd">Descripción</textarea>
+                        </div>
+                        <div class="f1">
+                            <p>Poderes</p><br>
+                            <input type="checkbox" name="poder" id="volar" value="volar">
+                            <label class="or" for="volar">Volar</label><br>
+                            <input type="checkbox" name="poder" id="super" value="super">
+                            <label class="or" for="super">Superinteligencia</label><br>
+                            <input type="checkbox" name="poder" id="vista" value="vista">
+                            <label class="or" for="vista">Vista de rayo láser</label><br>
+                            <input type="checkbox" name="poder" id="billete" value="billete">
+                            <label class="or" for="billete">Bitellera gorda</label><br>
+                            <hr>
+                            <p id="p1">Tipo de personaje</p>
+                            <input type="radio" name="genero" id="heroe" value="heroe">
+                            <label class="or" for="heroe">Héroe / Heroina</label><br>
+                            <input type="radio" name="genero" id="villano" value="villano">
+                            <label class="or" for="villano">Villano / Villana</label>
+                        </div>
+                    </div>
+                    <div><button type="submit" id="añadir">Añadir</button></div>
+                </form>
+            </section>
+        </div>
+        </main>
+        <footer id="fooform">
+            <p>Todos los derechos reservados a FRONT END 1</p>
+            <span>GitHub</span>
+        </footer>
+    </body>
+</html>
