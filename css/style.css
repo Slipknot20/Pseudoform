@@ -519,7 +519,7 @@ input:focus{
         left: 0px;
     }
     #mas{
-        position: relative;
+        position: fixed;
         right: 20px;
         top: 580px;
     }
